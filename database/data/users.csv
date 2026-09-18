@@ -1,0 +1,6 @@
+user_id,name,age,monthly_income,current_balance,risk_profile,monthly_savings_target,financial_goal
+U001,Affan,23,50000,125000,Moderate,12000,Emergency fund and Goa trip
+U002,Rahul,25,65000,180000,Conservative,18000,Emergency fund
+U003,Sara,24,80000,250000,Aggressive,25000,New car
+U004,Arjun,23,45000,85000,Moderate,9000,Emergency fund and laptop
+U005,Zoya,26,95000,320000,Conservative,30000,Long-term savings and investments

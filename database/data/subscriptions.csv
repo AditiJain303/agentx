@@ -1,0 +1,16 @@
+subscription_id,user_id,service,category,monthly_cost,start_date,last_used,active
+S001,U001,Netflix,Entertainment,649,2025-01-15,2026-03-01,True
+S002,U001,Spotify,Entertainment,119,2025-04-10,2026-09-10,True
+S003,U001,Adobe Creative Cloud,Software,1675,2026-01-01,2026-09-12,True
+S004,U001,Amazon Prime,Shopping,299,2025-08-20,2026-08-20,True
+S005,U002,Netflix,Entertainment,649,2025-05-01,2026-02-15,True
+S006,U002,Spotify,Entertainment,119,2025-02-01,2026-09-12,True
+S007,U002,YouTube Premium,Entertainment,149,2025-09-01,2026-04-02,True
+S008,U002,Amazon Prime,Shopping,299,2025-06-01,2026-03-10,True
+S009,U003,Netflix,Entertainment,649,2026-01-01,2026-09-15,True
+S010,U003,Spotify,Entertainment,119,2026-01-01,2026-09-16,True
+S011,U003,Canva Pro,Software,500,2026-02-01,2026-09-10,True
+S012,U004,Netflix,Entertainment,649,2025-03-01,2026-01-10,True
+S013,U004,Coursera,Education,2100,2026-06-01,2026-09-05,True
+S014,U005,Spotify,Entertainment,119,2025-01-01,2026-09-15,True
+S015,U005,Amazon Prime,Shopping,299,2025-01-01,2026-09-01,True
