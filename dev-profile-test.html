@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DEV TEST — Finance Guardian profile</title>
+    <style>
+      body {
+        font-family: Segoe UI, system-ui, sans-serif;
+        max-width: 880px;
+        margin: 32px auto;
+        padding: 0 16px;
+        color: #1a1a1a;
+        background: #f6f4ef;
+      }
+      .banner {
+        background: #7a2e0b;
+        color: #fff;
+        padding: 12px 16px;
+        border-radius: 8px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+      }
+      h1 { margin-bottom: 8px; }
+      p { line-height: 1.45; }
+      button {
+        background: #1f4d3a;
+        color: #fff;
+        border: 0;
+        border-radius: 8px;
+        padding: 10px 16px;
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: 8px;
+        margin-top: 8px;
+      }
+      button.secondary { background: #555; }
+      #status { margin: 16px 0; font-weight: 600; }
+      pre {
+        background: #1e1e1e;
+        color: #d6f5d6;
+        padding: 16px;
+        border-radius: 8px;
+        overflow: auto;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+      .hint { color: #444; font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <div class="banner">DEVELOPMENT / TEST PAGE ONLY — not a real app screen. Auth is unchanged; this page just sends the same login + Bearer token a real client would.</div>
+    <h1>Test Personal Financial Profile</h1>
+    <p>
+      This page logs in as the demo user
+      (<code>demo@financeguardian.dev</code> / <code>demo1234</code>),
+      then calls <code>GET /api/profile</code> with the JWT.
+    </p>
+    <p class="hint">If login fails, click “Create demo user” first (runs <code>POST /api/seed</code>).</p>
+    <button id="load">Log in and load profile</button>
+    <button id="seed" class="secondary">Create demo user (seed)</button>
+    <div id="status">Click the green button to start.</div>
+    <pre id="out">(profile JSON will appear here)</pre>
+    <script>
+      const statusEl = document.getElementById("status");
+      const outEl = document.getElementById("out");
+
+      async function seed() {
+        statusEl.textContent = "Seeding demo user…";
+        const res = await fetch("/api/seed", { method: "POST" });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "Seed failed");
+        statusEl.textContent = "Demo user created. Now click “Log in and load profile”.";
+        outEl.textContent = JSON.stringify(data, null, 2);
+      }
+
+      async function loadProfile() {
+        statusEl.textContent = "Logging in…";
+        outEl.textContent = "";
+        const loginRes = await fetch("/api/auth/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            email: "demo@financeguardian.dev",
+            password: "demo1234",
+          }),
+        });
+        const login = await loginRes.json();
+        if (!loginRes.ok || !login.token) {
+          throw new Error(login.error || "Login failed. Try “Create demo user” first.");
+        }
+        statusEl.textContent = "Login OK. Fetching profile (token is used, not shown)…";
+        const profileRes = await fetch("/api/profile", {
+          headers: { Authorization: "Bearer " + login.token },
+        });
+        const profile = await profileRes.json();
+        if (!profileRes.ok) throw new Error(profile.error || "Profile request failed");
+        statusEl.textContent = "Success — authenticated GET /api/profile returned this data:";
+        outEl.textContent = JSON.stringify(profile, null, 2);
+      }
+
+      document.getElementById("load").onclick = () =>
+        loadProfile().catch((err) => {
+          statusEl.textContent = "Error: " + err.message;
+        });
+      document.getElementById("seed").onclick = () =>
+        seed().catch((err) => {
+          statusEl.textContent = "Error: " + err.message;
+        });
+    </script>
+  </body>
+</html>
