@@ -1,0 +1,192 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                   Int       @id @default(autoincrement())
+  externalId           String?
+  email                String    @unique
+  passwordHash         String
+  fullName             String    @default("")
+  age                  Int?
+  city                 String    @default("")
+  occupation           String    @default("")
+  dependents           Int       @default(0)
+  monthlyIncome        Int       @default(0)
+  monthlyBudget        Int       @default(0)
+  savingsBalance       Int       @default(0)
+  monthlyEmi           Int       @default(0)
+  existingInvestments  Int       @default(0)
+  emergencyFundTarget  Int       @default(0)
+  riskPreference       String    @default("medium")
+  investmentHorizon    String    @default("medium")
+  autoActionLimit      Int       @default(50000)
+  profileUpdatedAt     DateTime?
+  createdAt            DateTime  @default(now())
+
+  expenses           Expense[]
+  budgets            Budget[]
+  subscriptions      Subscription[]
+  savingsGoals       SavingsGoal[]
+  agentActions       AgentAction[]
+  financialDecisions FinancialDecision[]
+  userPatterns       UserPattern[]
+  alerts             Alert[]
+
+  @@index([externalId])
+}
+
+model Category {
+  id          Int     @id @default(autoincrement())
+  name        String  @unique
+  isProtected Boolean @default(false)
+
+  expenses      Expense[]
+  budgets       Budget[]
+  subscriptions Subscription[]
+}
+
+model Expense {
+  id            Int      @id @default(autoincrement())
+  externalId    String?
+  userId        Int
+  amount        Int
+  categoryId    Int
+  description   String
+  merchant      String?
+  paymentMethod String?
+  source        String   @default("manual")
+  date          DateTime
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @default(now()) @updatedAt
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  category Category @relation(fields: [categoryId], references: [id])
+
+  @@index([userId, date])
+  @@index([externalId])
+}
+
+model Budget {
+  id           Int      @id @default(autoincrement())
+  externalId   String?
+  userId       Int
+  categoryId   Int
+  monthlyLimit Int
+  month        String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @default(now()) @updatedAt
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  category Category @relation(fields: [categoryId], references: [id])
+
+  @@unique([userId, categoryId])
+  @@index([externalId])
+}
+
+model Subscription {
+  id           Int       @id @default(autoincrement())
+  externalId   String?
+  userId       Int
+  categoryId   Int?
+  name         String
+  amount       Int
+  billingCycle String    @default("monthly")
+  lastUsedAt   DateTime?
+  status       String    @default("active")
+  isProtected  Boolean   @default(false)
+  priceHistory String    @default("[]")
+  trialEndsAt  DateTime?
+
+  user     User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  category Category? @relation(fields: [categoryId], references: [id])
+
+  @@index([userId, status])
+  @@index([externalId])
+}
+
+model SavingsGoal {
+  id            Int       @id @default(autoincrement())
+  externalId    String?
+  userId        Int
+  name          String
+  targetAmount  Int
+  savedAmount   Int       @default(0)
+  targetDate    DateTime?
+  priority      String?   @default("Medium")
+  lastMilestone Int       @default(0)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @default(now()) @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([externalId])
+}
+
+model FinancialDecision {
+  id         Int      @id @default(autoincrement())
+  externalId String?
+  userId     Int
+  date       DateTime
+  question   String
+  decision   String
+  amount     Int
+  reason     String
+  outcome    String
+  createdAt  DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, date])
+  @@index([externalId])
+}
+
+model AgentAction {
+  id                    Int      @id @default(autoincrement())
+  externalId            String?
+  userId                Int
+  actionType            String
+  description           String
+  status                String
+  confidenceScore       Float    @default(0)
+  relatedSubscriptionId Int?
+  createdAt             DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([externalId])
+}
+
+// FUTURE: nightly jobs can write inferred habits here (e.g. "usually spends on Food weekends")
+// without changing the agent decision-tree API. Guardrails already read reject_cancel patterns.
+model UserPattern {
+  id                Int    @id @default(autoincrement())
+  userId            Int
+  patternType       String
+  subject           String
+  observationCount  Int    @default(1)
+  learnedPreference String @default("{}")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, patternType, subject])
+}
+
+model Alert {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  type      String
+  message   String
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, read, createdAt])
+}
