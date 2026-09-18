@@ -1,0 +1,11 @@
+decision_id,user_id,date,question,decision,amount,reason,outcome
+D001,U001,2026-08-15,Should I buy a smartwatch?,No,12000,Prioritized Goa savings,pending
+D002,U001,2026-08-20,Should I subscribe to Adobe?,Yes,1675,Needed for project work,positive
+D003,U001,2026-09-05,Can I spend ₹5000 on headphones?,Review,5000,Food spending was above budget,pending
+D004,U002,2026-07-10,Should I upgrade my phone?,No,30000,Emergency fund prioritized,positive
+D005,U002,2026-08-22,Should I keep Netflix?,Review,649,Usage was low,pending
+D006,U003,2026-08-01,Should I buy a ₹15000 gaming accessory?,Yes,15000,Fit discretionary plan,positive
+D007,U003,2026-09-01,Should I invest ₹20000?,Review,20000,Needs market and risk analysis,pending
+D008,U004,2026-08-12,Can I buy a ₹10000 laptop accessory?,No,10000,Savings goal is behind schedule,positive
+D009,U004,2026-09-02,No,499,Existing subscriptions cover entertainment,positive,
+D010,U005,2026-08-25,Should I invest ₹50000?,Review,50000,Compare with goals and risk profile,pending
