@@ -1,0 +1,379 @@
+expense_id,user_id,date,category,merchant,amount,payment_method
+E0009,U001,2026-04-02,Entertainment,Spotify,506,Net Banking
+E0052,U001,2026-04-05,Utilities,Electricity Board,1022,Cash
+E0005,U001,2026-04-08,Food,Swiggy,299,Card
+E0028,U001,2026-04-09,Entertainment,BookMyShow,400,Net Banking
+E0014,U001,2026-04-12,Food,McDonald's,310,UPI
+E0018,U001,2026-04-12,Shopping,Flipkart,2237,Cash
+E0038,U001,2026-04-13,Healthcare,Apollo Pharmacy,1506,Card
+E0080,U001,2026-04-13,Food,Starbucks,372,UPI
+E0073,U001,2026-04-14,Food,Swiggy,313,UPI
+E0065,U001,2026-04-18,Food,Swiggy,519,Cash
+E0064,U001,2026-04-19,Shopping,Amazon,1943,Card
+E0066,U001,2026-04-19,Food,Starbucks,354,Card
+E0019,U001,2026-04-21,Food,Zomato,359,UPI
+E0012,U001,2026-04-24,Shopping,AJIO,3320,UPI
+E0081,U001,2026-04-24,Transport,Ola,271,Card
+E0044,U001,2026-04-29,Shopping,Myntra,4184,Net Banking
+E0056,U001,2026-05-03,Food,McDonald's,557,Card
+E0003,U001,2026-05-06,Food,Swiggy,538,UPI
+E0049,U001,2026-05-10,Rent,Monthly Rent,11248,Card
+E0045,U001,2026-05-11,Rent,Monthly Rent,8000,UPI
+E0025,U001,2026-05-12,Food,McDonald's,275,Net Banking
+E0070,U001,2026-05-19,Healthcare,Apollo Pharmacy,2341,UPI
+E0031,U001,2026-05-25,Education,Amazon Books,1586,Net Banking
+E0058,U001,2026-05-25,Transport,Ola,299,Cash
+E0011,U001,2026-05-26,Shopping,Myntra,1754,UPI
+E0008,U001,2026-05-27,Food,McDonald's,764,Cash
+E0006,U001,2026-05-30,Food,Starbucks,354,UPI
+E0054,U001,2026-06-01,Shopping,Amazon,2009,UPI
+E0069,U001,2026-06-02,Bills,Jio,612,Net Banking
+E0061,U001,2026-06-03,Other,Local Store,1023,UPI
+E0075,U001,2026-06-03,Food,Zomato,1279,Card
+E0033,U001,2026-06-07,Utilities,Electricity Board,426,Card
+E0046,U001,2026-06-07,Education,Amazon Books,811,Card
+E0057,U001,2026-06-07,Food,Starbucks,666,Net Banking
+E0023,U001,2026-06-08,Other,Gift,1157,UPI
+E0029,U001,2026-06-08,Food,Swiggy,713,Card
+E0026,U001,2026-06-09,Food,Starbucks,231,Card
+E0002,U001,2026-06-10,Food,Zomato,621,Card
+E0067,U001,2026-06-11,Food,McDonald's,628,Card
+E0053,U001,2026-06-18,Transport,Ola,285,UPI
+E0027,U001,2026-06-23,Travel,MakeMyTrip,2614,Card
+E0062,U001,2026-06-26,Transport,Uber,136,Card
+E0010,U001,2026-06-27,Transport,Rapido,222,Card
+E0013,U001,2026-07-01,Entertainment,BookMyShow,674,Cash
+E0036,U001,2026-07-02,Bills,Airtel,574,Card
+E0022,U001,2026-07-04,Food,Dominos,1093,Card
+E0015,U001,2026-07-06,Food,Swiggy,430,Cash
+E0020,U001,2026-07-07,Bills,Jio,1122,Net Banking
+E0041,U001,2026-07-07,Shopping,AJIO,1977,Cash
+E0032,U001,2026-07-11,Food,McDonald's,424,Card
+E0059,U001,2026-07-12,Shopping,Myntra,1490,Net Banking
+E0074,U001,2026-07-13,Food,Dominos,949,UPI
+E0082,U001,2026-07-14,Bills,Jio,1224,Net Banking
+E0072,U001,2026-07-18,Entertainment,YouTube,1306,Net Banking
+E0077,U001,2026-07-18,Shopping,Flipkart,3410,Cash
+E0079,U001,2026-07-23,Bills,ACT Fibernet,1265,UPI
+E0078,U001,2026-07-28,Food,Zomato,311,UPI
+E0055,U001,2026-08-03,Travel,MakeMyTrip,1324,Card
+E0047,U001,2026-08-08,Food,Swiggy,580,Cash
+E0037,U001,2026-08-09,Utilities,Water Board,544,UPI
+E0060,U001,2026-08-11,Other,UPI Merchant,2144,UPI
+E0043,U001,2026-08-16,Food,Dominos,310,Cash
+E0076,U001,2026-08-16,Food,McDonald's,1021,Card
+E0050,U001,2026-08-17,Utilities,Gas Agency,1704,UPI
+E0068,U001,2026-08-17,Food,Zomato,646,Net Banking
+E0042,U001,2026-08-20,Food,Swiggy,628,UPI
+E0007,U001,2026-08-22,Transport,Ola,83,Net Banking
+E0034,U001,2026-08-22,Food,Starbucks,1148,Cash
+E0030,U001,2026-08-24,Healthcare,Apollo Hospitals,2485,Cash
+E0017,U001,2026-08-26,Bills,Airtel,538,UPI
+E0035,U001,2026-08-28,Transport,Metro,603,Net Banking
+E0063,U001,2026-08-29,Food,Zomato,683,UPI
+E0004,U001,2026-08-30,Healthcare,Tata 1mg,2649,UPI
+E0040,U001,2026-08-31,Shopping,Amazon,2901,Net Banking
+E0051,U001,2026-09-01,Travel,Air India,10748,Net Banking
+E0024,U001,2026-09-03,Rent,Monthly Rent,13708,Card
+E0016,U001,2026-09-08,Food,Starbucks,1160,Cash
+E0039,U001,2026-09-08,Education,Udemy,3844,Net Banking
+E0021,U001,2026-09-10,Transport,Rapido,900,Card
+E0001,U001,2026-09-11,Transport,Uber,183,UPI
+E0048,U001,2026-09-11,Food,Starbucks,568,Card
+E0071,U001,2026-09-16,Transport,Metro,678,Cash
+E0115,U002,2026-04-12,Education,Udemy,1072,Cash
+E0144,U002,2026-04-12,Travel,IRCTC,2706,UPI
+E0091,U002,2026-04-15,Food,Starbucks,554,UPI
+E0135,U002,2026-04-18,Utilities,Water Board,740,Cash
+E0102,U002,2026-04-19,Entertainment,Spotify,664,Cash
+E0119,U002,2026-04-20,Entertainment,Spotify,1337,UPI
+E0140,U002,2026-04-28,Education,Amazon Books,763,Net Banking
+E0138,U002,2026-04-30,Food,Dominos,1201,Card
+E0099,U002,2026-05-04,Transport,Rapido,515,Net Banking
+E0103,U002,2026-05-04,Transport,Rapido,197,UPI
+E0116,U002,2026-05-04,Shopping,Myntra,4992,Card
+E0087,U002,2026-05-10,Travel,IndiGo,7261,Cash
+E0105,U002,2026-05-11,Healthcare,Tata 1mg,1468,Cash
+E0084,U002,2026-05-13,Transport,Metro,900,UPI
+E0092,U002,2026-05-18,Education,Udemy,938,UPI
+E0097,U002,2026-05-23,Healthcare,Apollo Hospitals,997,Cash
+E0112,U002,2026-05-23,Food,Dominos,1267,Net Banking
+E0083,U002,2026-05-25,Utilities,Water Board,1896,UPI
+E0088,U002,2026-05-26,Food,Swiggy,954,UPI
+E0131,U002,2026-05-27,Food,Zomato,1400,Net Banking
+E0133,U002,2026-05-28,Travel,MakeMyTrip,5308,Card
+E0093,U002,2026-05-31,Healthcare,Tata 1mg,2295,UPI
+E0126,U002,2026-05-31,Bills,Airtel,1103,Card
+E0098,U002,2026-06-01,Shopping,Myntra,2625,Net Banking
+E0104,U002,2026-06-02,Food,Dominos,842,Cash
+E0113,U002,2026-06-04,Bills,Airtel,1588,UPI
+E0109,U002,2026-06-07,Rent,Monthly Rent,8000,UPI
+E0129,U002,2026-06-08,Utilities,Electricity Board,1242,UPI
+E0111,U002,2026-06-12,Rent,Monthly Rent,12026,Cash
+E0086,U002,2026-06-13,Shopping,AJIO,4519,Net Banking
+E0122,U002,2026-06-18,Shopping,Myntra,2666,UPI
+E0089,U002,2026-06-20,Food,Swiggy,569,UPI
+E0100,U002,2026-06-20,Healthcare,Apollo Pharmacy,1383,UPI
+E0150,U002,2026-06-23,Food,McDonald's,1008,Cash
+E0128,U002,2026-06-25,Entertainment,YouTube,532,Card
+E0141,U002,2026-06-28,Healthcare,Apollo Hospitals,1906,Cash
+E0132,U002,2026-06-29,Healthcare,Tata 1mg,4085,Card
+E0123,U002,2026-07-01,Shopping,Flipkart,2651,Card
+E0146,U002,2026-07-03,Food,McDonald's,1341,UPI
+E0120,U002,2026-07-04,Healthcare,Apollo Hospitals,1572,Card
+E0130,U002,2026-07-07,Food,Swiggy,261,Net Banking
+E0143,U002,2026-07-08,Entertainment,Spotify,433,Cash
+E0085,U002,2026-07-09,Food,Dominos,239,Net Banking
+E0134,U002,2026-07-12,Shopping,Myntra,3062,Cash
+E0154,U002,2026-07-13,Bills,ACT Fibernet,946,UPI
+E0127,U002,2026-07-15,Food,Swiggy,318,Card
+E0152,U002,2026-07-17,Rent,Monthly Rent,18000,Card
+E0121,U002,2026-07-20,Education,Udemy,1993,UPI
+E0142,U002,2026-07-21,Bills,ACT Fibernet,2163,UPI
+E0117,U002,2026-07-23,Utilities,Gas Agency,1093,Net Banking
+E0101,U002,2026-07-27,Utilities,Gas Agency,2500,UPI
+E0149,U002,2026-08-08,Entertainment,BookMyShow,1412,Net Banking
+E0145,U002,2026-08-12,Food,Starbucks,447,Card
+E0137,U002,2026-08-16,Food,Dominos,339,UPI
+E0110,U002,2026-08-20,Bills,Airtel,702,Cash
+E0151,U002,2026-08-20,Shopping,Flipkart,2508,Card
+E0118,U002,2026-08-22,Rent,Monthly Rent,9906,UPI
+E0125,U002,2026-08-22,Entertainment,YouTube,249,Card
+E0094,U002,2026-08-24,Transport,Ola,198,UPI
+E0139,U002,2026-08-27,Food,Dominos,597,UPI
+E0090,U002,2026-08-28,Food,McDonald's,787,Card
+E0106,U002,2026-09-04,Other,Gift,1518,UPI
+E0153,U002,2026-09-05,Healthcare,Apollo Hospitals,1410,Cash
+E0095,U002,2026-09-06,Shopping,Amazon,3631,Net Banking
+E0114,U002,2026-09-10,Travel,IRCTC,5409,Cash
+E0136,U002,2026-09-12,Food,Starbucks,212,Net Banking
+E0096,U002,2026-09-16,Rent,Monthly Rent,16760,Cash
+E0108,U002,2026-09-17,Entertainment,Netflix,948,Card
+E0148,U002,2026-09-17,Entertainment,Netflix,599,Cash
+E0107,U002,2026-09-18,Other,Gift,816,Cash
+E0124,U002,2026-09-18,Food,Swiggy,324,Cash
+E0147,U002,2026-09-18,Entertainment,BookMyShow,322,Cash
+E0213,U003,2026-04-04,Healthcare,Tata 1mg,2304,Net Banking
+E0228,U003,2026-04-05,Healthcare,Apollo Pharmacy,2069,Cash
+E0199,U003,2026-04-06,Other,Gift,487,Card
+E0198,U003,2026-04-08,Entertainment,Spotify,945,Card
+E0161,U003,2026-04-12,Utilities,Electricity Board,675,Net Banking
+E0180,U003,2026-04-16,Travel,IndiGo,2826,Net Banking
+E0190,U003,2026-04-22,Rent,Monthly Rent,8000,Card
+E0225,U003,2026-04-22,Utilities,Electricity Board,793,Net Banking
+E0159,U003,2026-04-24,Other,Local Store,802,Cash
+E0209,U003,2026-04-27,Shopping,Myntra,3586,UPI
+E0214,U003,2026-04-28,Shopping,Myntra,7000,Net Banking
+E0201,U003,2026-04-30,Transport,Ola,338,Net Banking
+E0177,U003,2026-05-09,Rent,Monthly Rent,18000,Net Banking
+E0178,U003,2026-05-10,Shopping,Amazon,6774,Net Banking
+E0215,U003,2026-05-10,Rent,Monthly Rent,8341,Card
+E0171,U003,2026-05-11,Food,McDonald's,509,Net Banking
+E0204,U003,2026-05-12,Entertainment,BookMyShow,651,UPI
+E0187,U003,2026-05-13,Food,McDonald's,404,Card
+E0158,U003,2026-05-14,Shopping,Myntra,4039,Cash
+E0193,U003,2026-05-25,Travel,IRCTC,1825,Cash
+E0222,U003,2026-05-25,Rent,Monthly Rent,8420,Cash
+E0229,U003,2026-05-27,Bills,Jio,595,Card
+E0160,U003,2026-05-28,Shopping,Flipkart,4337,UPI
+E0175,U003,2026-05-31,Rent,Monthly Rent,8000,Cash
+E0200,U003,2026-06-01,Rent,Monthly Rent,8000,Net Banking
+E0165,U003,2026-06-02,Shopping,Amazon,5187,UPI
+E0219,U003,2026-06-02,Other,Local Store,1192,Cash
+E0202,U003,2026-06-05,Other,UPI Merchant,1723,Card
+E0172,U003,2026-06-06,Utilities,Electricity Board,1514,Cash
+E0192,U003,2026-06-06,Food,McDonald's,1027,Cash
+E0183,U003,2026-06-16,Shopping,AJIO,3315,Card
+E0155,U003,2026-06-17,Rent,Monthly Rent,8000,Card
+E0230,U003,2026-06-18,Healthcare,Apollo Hospitals,1337,Cash
+E0176,U003,2026-06-21,Rent,Monthly Rent,8000,Card
+E0194,U003,2026-06-26,Rent,Monthly Rent,18000,Cash
+E0221,U003,2026-06-26,Shopping,Flipkart,15000,Net Banking
+E0223,U003,2026-06-27,Utilities,Water Board,2053,Cash
+E0164,U003,2026-07-08,Travel,IRCTC,7125,Net Banking
+E0181,U003,2026-07-09,Travel,MakeMyTrip,3661,Net Banking
+E0186,U003,2026-07-09,Food,Dominos,1026,Net Banking
+E0189,U003,2026-07-10,Education,Amazon Books,3219,UPI
+E0207,U003,2026-07-11,Entertainment,Spotify,597,UPI
+E0179,U003,2026-07-14,Shopping,AJIO,7000,Net Banking
+E0163,U003,2026-07-16,Bills,ACT Fibernet,1106,Card
+E0195,U003,2026-07-17,Food,Dominos,432,UPI
+E0166,U003,2026-07-18,Travel,IndiGo,3640,Card
+E0156,U003,2026-07-20,Bills,ACT Fibernet,1784,Cash
+E0185,U003,2026-07-21,Food,McDonald's,697,UPI
+E0174,U003,2026-07-22,Food,Swiggy,789,Cash
+E0170,U003,2026-07-23,Travel,IRCTC,4190,Net Banking
+E0220,U003,2026-07-25,Shopping,AJIO,4500,Net Banking
+E0169,U003,2026-07-26,Shopping,AJIO,7000,Cash
+E0191,U003,2026-07-28,Other,Local Store,731,UPI
+E0157,U003,2026-07-29,Shopping,Flipkart,5564,Net Banking
+E0218,U003,2026-07-29,Shopping,Myntra,2200,Cash
+E0196,U003,2026-07-30,Shopping,Myntra,8500,Card
+E0227,U003,2026-07-31,Rent,Monthly Rent,8000,Net Banking
+E0231,U003,2026-07-31,Entertainment,BookMyShow,672,Net Banking
+E0182,U003,2026-08-01,Entertainment,Netflix,630,Cash
+E0184,U003,2026-08-03,Food,Zomato,769,Cash
+E0226,U003,2026-08-04,Food,Starbucks,220,Card
+E0212,U003,2026-08-08,Utilities,Gas Agency,1126,Cash
+E0167,U003,2026-08-11,Other,UPI Merchant,407,UPI
+E0173,U003,2026-08-12,Shopping,Flipkart,3437,Cash
+E0216,U003,2026-08-12,Utilities,Gas Agency,805,Cash
+E0232,U003,2026-08-19,Utilities,Water Board,2091,Cash
+E0168,U003,2026-08-21,Travel,IndiGo,2791,UPI
+E0224,U003,2026-08-21,Rent,Monthly Rent,10195,Card
+E0210,U003,2026-08-23,Shopping,Myntra,1924,Net Banking
+E0206,U003,2026-08-26,Bills,ACT Fibernet,2411,Net Banking
+E0205,U003,2026-08-27,Bills,Airtel,732,Cash
+E0208,U003,2026-08-30,Bills,ACT Fibernet,1522,Card
+E0203,U003,2026-09-03,Food,Starbucks,648,UPI
+E0162,U003,2026-09-04,Education,Udemy,1468,Net Banking
+E0217,U003,2026-09-05,Other,Gift,1204,Net Banking
+E0188,U003,2026-09-07,Utilities,Gas Agency,1037,UPI
+E0197,U003,2026-09-14,Food,Swiggy,981,UPI
+E0211,U003,2026-09-17,Entertainment,BookMyShow,234,UPI
+E0305,U004,2026-04-01,Education,Coursera,1212,Cash
+E0241,U004,2026-04-04,Shopping,Flipkart,4053,Cash
+E0244,U004,2026-04-04,Food,Starbucks,766,Cash
+E0242,U004,2026-04-12,Rent,Monthly Rent,10292,Cash
+E0248,U004,2026-04-17,Food,McDonald's,487,Net Banking
+E0303,U004,2026-04-18,Food,Dominos,370,Net Banking
+E0249,U004,2026-04-19,Food,Starbucks,285,UPI
+E0273,U004,2026-04-21,Food,Starbucks,567,UPI
+E0251,U004,2026-04-22,Rent,Monthly Rent,18000,UPI
+E0286,U004,2026-04-23,Rent,Monthly Rent,8000,Cash
+E0276,U004,2026-04-24,Entertainment,Spotify,632,UPI
+E0298,U004,2026-05-01,Bills,ACT Fibernet,781,Card
+E0294,U004,2026-05-02,Transport,Uber,758,Card
+E0243,U004,2026-05-03,Food,McDonald's,502,UPI
+E0268,U004,2026-05-07,Shopping,Amazon,2536,UPI
+E0250,U004,2026-05-09,Transport,Ola,420,Cash
+E0260,U004,2026-05-11,Education,Udemy,1279,Net Banking
+E0295,U004,2026-05-11,Education,Coursera,1317,UPI
+E0283,U004,2026-05-12,Food,Dominos,399,Net Banking
+E0269,U004,2026-05-13,Entertainment,BookMyShow,415,Cash
+E0235,U004,2026-05-20,Food,Dominos,1099,UPI
+E0239,U004,2026-05-20,Rent,Monthly Rent,9617,Card
+E0292,U004,2026-05-23,Bills,Jio,694,Card
+E0237,U004,2026-05-26,Food,McDonald's,205,Cash
+E0297,U004,2026-05-28,Shopping,Amazon,1917,Net Banking
+E0259,U004,2026-06-01,Bills,Airtel,1427,UPI
+E0301,U004,2026-06-02,Entertainment,YouTube,586,Card
+E0234,U004,2026-06-04,Shopping,Flipkart,2652,UPI
+E0247,U004,2026-06-04,Bills,Jio,859,UPI
+E0265,U004,2026-06-07,Food,Starbucks,788,Card
+E0277,U004,2026-06-08,Entertainment,Netflix,503,Card
+E0279,U004,2026-06-11,Transport,Ola,675,Net Banking
+E0263,U004,2026-06-13,Bills,ACT Fibernet,661,Cash
+E0293,U004,2026-06-13,Rent,Monthly Rent,18000,Net Banking
+E0262,U004,2026-06-14,Shopping,Amazon,1284,Card
+E0271,U004,2026-06-17,Food,McDonald's,291,Cash
+E0255,U004,2026-06-18,Food,Starbucks,240,UPI
+E0287,U004,2026-06-22,Food,Swiggy,137,Net Banking
+E0282,U004,2026-06-25,Food,Dominos,541,UPI
+E0308,U004,2026-06-25,Food,Starbucks,530,Net Banking
+E0246,U004,2026-06-27,Transport,Ola,402,UPI
+E0304,U004,2026-06-27,Healthcare,Apollo Hospitals,2326,Cash
+E0240,U004,2026-07-02,Education,Udemy,571,Cash
+E0302,U004,2026-07-08,Food,Zomato,409,Card
+E0289,U004,2026-07-15,Food,Swiggy,620,Card
+E0300,U004,2026-07-16,Shopping,AJIO,2796,Net Banking
+E0266,U004,2026-07-18,Rent,Monthly Rent,8000,Card
+E0274,U004,2026-07-20,Healthcare,Apollo Hospitals,2515,Cash
+E0270,U004,2026-07-22,Transport,Uber,204,Net Banking
+E0254,U004,2026-07-23,Food,Dominos,378,Net Banking
+E0307,U004,2026-07-24,Transport,Metro,356,Cash
+E0261,U004,2026-07-25,Food,Starbucks,381,Net Banking
+E0233,U004,2026-07-26,Entertainment,BookMyShow,1080,Cash
+E0264,U004,2026-07-26,Education,Udemy,565,Card
+E0245,U004,2026-07-30,Shopping,AJIO,2425,Net Banking
+E0278,U004,2026-07-30,Food,Starbucks,1153,Net Banking
+E0281,U004,2026-07-30,Transport,Rapido,331,Net Banking
+E0284,U004,2026-08-05,Food,Dominos,365,Net Banking
+E0299,U004,2026-08-06,Transport,Rapido,180,Cash
+E0272,U004,2026-08-07,Transport,Metro,232,Net Banking
+E0288,U004,2026-08-10,Other,Local Store,1475,Net Banking
+E0290,U004,2026-08-11,Utilities,Water Board,893,Net Banking
+E0253,U004,2026-08-12,Food,McDonald's,331,Net Banking
+E0236,U004,2026-08-16,Food,Zomato,799,Card
+E0285,U004,2026-08-19,Food,Swiggy,329,Net Banking
+E0296,U004,2026-08-20,Shopping,AJIO,1445,UPI
+E0252,U004,2026-08-21,Food,McDonald's,429,Card
+E0238,U004,2026-08-29,Shopping,Myntra,5156,UPI
+E0306,U004,2026-08-29,Shopping,AJIO,7000,Card
+E0275,U004,2026-09-02,Education,Coursera,1121,UPI
+E0256,U004,2026-09-04,Transport,Uber,295,Card
+E0257,U004,2026-09-08,Shopping,Flipkart,2307,Cash
+E0291,U004,2026-09-08,Travel,IRCTC,3614,UPI
+E0280,U004,2026-09-10,Entertainment,YouTube,320,UPI
+E0267,U004,2026-09-13,Entertainment,Spotify,381,Cash
+E0258,U004,2026-09-17,Travel,MakeMyTrip,5383,Card
+E0365,U005,2026-04-07,Transport,Rapido,307,Card
+E0327,U005,2026-04-08,Rent,Monthly Rent,8000,Cash
+E0375,U005,2026-04-09,Utilities,Gas Agency,773,Cash
+E0314,U005,2026-04-10,Education,Udemy,3026,Cash
+E0328,U005,2026-04-15,Shopping,Myntra,3001,Cash
+E0337,U005,2026-04-19,Transport,Metro,356,Cash
+E0318,U005,2026-04-20,Shopping,AJIO,762,Cash
+E0358,U005,2026-04-20,Entertainment,Spotify,583,Card
+E0324,U005,2026-04-24,Entertainment,YouTube,851,UPI
+E0352,U005,2026-04-24,Rent,Monthly Rent,8000,Cash
+E0370,U005,2026-04-25,Bills,Airtel,250,Card
+E0315,U005,2026-04-26,Entertainment,YouTube,550,UPI
+E0341,U005,2026-04-28,Food,Zomato,1279,Net Banking
+E0364,U005,2026-04-28,Rent,Monthly Rent,9366,Net Banking
+E0354,U005,2026-05-04,Bills,ACT Fibernet,598,Cash
+E0368,U005,2026-05-06,Food,Swiggy,284,UPI
+E0317,U005,2026-05-07,Bills,Jio,644,Card
+E0326,U005,2026-05-13,Education,Amazon Books,3379,Cash
+E0331,U005,2026-05-14,Entertainment,Spotify,1236,UPI
+E0340,U005,2026-05-21,Travel,IRCTC,15000,Net Banking
+E0376,U005,2026-05-26,Transport,Metro,315,Net Banking
+E0347,U005,2026-05-27,Bills,ACT Fibernet,2500,Card
+E0377,U005,2026-05-31,Rent,Monthly Rent,8273,UPI
+E0310,U005,2026-06-01,Rent,Monthly Rent,18000,Card
+E0330,U005,2026-06-02,Rent,Monthly Rent,10681,Card
+E0339,U005,2026-06-04,Bills,Jio,1006,Cash
+E0356,U005,2026-06-05,Transport,Metro,302,Cash
+E0344,U005,2026-06-10,Travel,MakeMyTrip,2911,UPI
+E0346,U005,2026-06-13,Rent,Monthly Rent,9129,Cash
+E0343,U005,2026-06-15,Rent,Monthly Rent,9871,Net Banking
+E0367,U005,2026-06-17,Food,McDonald's,1400,UPI
+E0369,U005,2026-06-17,Rent,Monthly Rent,17841,UPI
+E0350,U005,2026-06-19,Food,McDonald's,374,UPI
+E0320,U005,2026-06-24,Rent,Monthly Rent,8739,Cash
+E0319,U005,2026-06-26,Rent,Monthly Rent,8000,UPI
+E0357,U005,2026-06-26,Healthcare,Apollo Pharmacy,2380,Net Banking
+E0362,U005,2026-07-04,Other,Gift,948,Cash
+E0378,U005,2026-07-04,Shopping,Myntra,2471,UPI
+E0329,U005,2026-07-05,Shopping,AJIO,5335,Card
+E0371,U005,2026-07-09,Entertainment,YouTube,343,Cash
+E0359,U005,2026-07-11,Travel,Air India,3103,UPI
+E0360,U005,2026-07-11,Other,Local Store,1351,Cash
+E0311,U005,2026-07-15,Food,Swiggy,371,Cash
+E0353,U005,2026-07-16,Entertainment,Spotify,1225,Card
+E0373,U005,2026-07-16,Rent,Monthly Rent,8016,Net Banking
+E0309,U005,2026-07-26,Food,Dominos,653,Card
+E0335,U005,2026-07-27,Rent,Monthly Rent,8000,UPI
+E0334,U005,2026-07-28,Utilities,Gas Agency,1548,Cash
+E0336,U005,2026-07-29,Entertainment,BookMyShow,732,Card
+E0312,U005,2026-07-31,Transport,Metro,443,Net Banking
+E0333,U005,2026-08-06,Shopping,Flipkart,4016,Card
+E0316,U005,2026-08-13,Rent,Monthly Rent,14185,UPI
+E0355,U005,2026-08-14,Shopping,Myntra,1355,Card
+E0361,U005,2026-08-16,Transport,Uber,215,Net Banking
+E0372,U005,2026-08-17,Transport,Metro,363,Card
+E0342,U005,2026-08-25,Rent,Monthly Rent,11780,Cash
+E0351,U005,2026-08-27,Entertainment,BookMyShow,986,Card
+E0363,U005,2026-08-28,Healthcare,Tata 1mg,1101,Cash
+E0338,U005,2026-08-29,Entertainment,BookMyShow,977,Net Banking
+E0345,U005,2026-09-03,Bills,ACT Fibernet,1008,Net Banking
+E0332,U005,2026-09-04,Transport,Metro,259,Card
+E0374,U005,2026-09-05,Shopping,AJIO,3201,Cash
+E0322,U005,2026-09-06,Travel,MakeMyTrip,5535,Card
+E0348,U005,2026-09-06,Entertainment,BookMyShow,831,Card
+E0321,U005,2026-09-08,Entertainment,YouTube,1007,UPI
+E0349,U005,2026-09-08,Food,Swiggy,884,UPI
+E0323,U005,2026-09-09,Food,Dominos,552,Card
+E0325,U005,2026-09-10,Food,Swiggy,660,Net Banking
+E0366,U005,2026-09-13,Transport,Uber,354,Net Banking
+E0313,U005,2026-09-17,Transport,Ola,433,Net Banking

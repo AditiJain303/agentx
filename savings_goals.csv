@@ -1,0 +1,12 @@
+goal_id,user_id,goal_name,target_amount,current_saved,target_date,priority
+G001,U001,Goa Trip,40000,18000,2026-12-15,High
+G002,U001,Emergency Fund,150000,75000,2027-06-01,High
+G003,U001,New Laptop,100000,35000,2027-02-01,Medium
+G004,U002,Emergency Fund,250000,145000,2027-06-01,High
+G005,U002,Family Vacation,80000,42000,2027-01-15,Medium
+G006,U003,New Car,800000,310000,2028-03-01,High
+G007,U003,Investment Corpus,500000,220000,2028-12-01,Medium
+G008,U004,Emergency Fund,120000,45000,2027-08-01,High
+G009,U004,New Laptop,90000,25000,2027-02-15,High
+G010,U005,Emergency Fund,300000,250000,2027-01-01,High
+G011,U005,Investment Corpus,1000000,450000,2029-01-01,Medium

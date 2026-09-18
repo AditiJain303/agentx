@@ -1,0 +1,11 @@
+action_id,user_id,timestamp,action_type,description,status
+A001,U001,2026-09-15T10:30:00,Alert,Food spending exceeded monthly budget,completed
+A002,U001,2026-09-15T10:35:00,Recommendation,Flagged unused Netflix subscription for review,completed
+A003,U001,2026-09-16T09:20:00,Analysis,Evaluated ₹5000 headphone purchase against savings goals,completed
+A004,U002,2026-09-14T11:00:00,Alert,Detected subscriptions with low recent usage,completed
+A005,U002,2026-09-16T12:15:00,Recommendation,Suggested redirecting unused subscription costs to emergency fund,completed
+A006,U003,2026-09-16T13:10:00,Analysis,Detected elevated shopping expenditure,completed
+A007,U003,2026-09-17T14:00:00,Market Check,Prepared context for investment-related question,completed
+A008,U004,2026-09-15T09:40:00,Alert,Savings goal is behind planned contribution pace,completed
+A009,U004,2026-09-17T10:05:00,Recommendation,Suggested reviewing discretionary shopping expenses,completed
+A010,U005,2026-09-17T15:30:00,Analysis,Prepared long-term investment decision context,completed
